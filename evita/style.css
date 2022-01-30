@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#evitaheader {
+  font-size: 70px;
+  font-family: "Comforter", cursive;
+  color: #967233;
+}
+#home {
+  color: #967233;
+  border-color: #967233;
+  border-bottom: 1px solid #967233;
+  padding-bottom: 2px;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media (max-width: 425px) {
+  #evitaheader {
+    font-size: 40px;
+  }
+}
+#navcontent {
+  color: black;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navcontent:hover {
+  padding-bottom: 2px;
+  border-color: #967233;
+  border-bottom: 1px solid #967233;
+  color: #967233;
+}
+#navbg {
+  background-color: #ffffff;
+}
+li {
+  margin-left: 10px;
+}
+.about {
+  background-color: #f6f6f6;
+}
+p {
+  margin-top: 200px;
+  font-size: 20px;
+  font-family: "Source Serif 4", sans-serif;
+}
+.evita {
+  border-radius: 50%;
+  margin-top: 200px;
+}
+@media only screen and (min-width: 1024px) {
+  .evita {
+    width: 40%;
+  }
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150,114,51, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #967233;
+}
+.button {
+  background-color: #967233;
+  color: white;
+  font-weight: bolder;
+}
+.button:hover {
+  color: black;
+}
+#contact {
+  background-color: #dbbeaa;
+  color: white;
+  font-weight: bold;
+}
+.padding-x {
+  padding-top: 150px;
+}
+.contact-heading {
+  text-align: left;
+  color: #967233;
+  font-weight: bold;
+}
+.padding-y {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #dbbeaa;
+}
+.form-control {
+  background-color: white;
+  border: none;
+}
+/* .contact-form select:focus,
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form button:focus {
+  background: var(--bgFormElsFocus);
+  color: white;
+} */
+#line {
+  border-top: 2px solid white;
+  margin-top: 50px;
+}
+#social {
+  width: 15%;
+}
+@media screen and (min-width: 768px) {
+  #social {
+    width: 4%;
+  }
+}
+ul li {
+  font-size: 1em;
+  color: black;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
